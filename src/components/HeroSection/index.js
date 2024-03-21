@@ -1,7 +1,7 @@
 import React from 'react'
 import {
     HeroContainer, HeroBg, HeroInnerContainer, HeroLeftContainer, HeroRightContainer
-    , Title, TextLoop, Span, SubTitle, ResumeButton, Image
+    , Title, TextLoop, Span, SubTitle, Image
 } from './herosec.style'
 import { Bio } from '../../data/constants'
 import Typewriter from 'typewriter-effect'
@@ -17,7 +17,7 @@ const Hero = () => {
                 </HeroBg>
                 <HeroInnerContainer>
                     <HeroLeftContainer>
-                        <Title>I am <br />{Bio.name}</Title>
+                        <Title>My name is <br />{Bio.name}</Title>
                         <TextLoop>
                             I am
                             <Span>

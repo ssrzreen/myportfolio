@@ -1,5 +1,6 @@
 import { Col, Image, Row } from 'antd'
 import React from 'react'
+import Mypic from '../../../../images/SAVE_20240228_125331 (1).jpg'
 // import "./Footer.css"
 
 export default function Footer() {
@@ -19,16 +20,16 @@ export default function Footer() {
                         <Row>
                             <Col span={24}>
                                 <Image
-                                    fallback='https://www.prachachat.net/wp-content/uploads/2018/09/41937319_2227893787439992_4830542910288035840_ng.jpg'
+                                    fallback= { Mypic }
                                     src='error'
                                     width={50}
                                     height={50}
                                     style={{ marginTop: -5 }}
                                 />
-                                <label style={{ paddingLeft: 10, fontSize: 25 }}> Toflyn</label>
+                                <label style={{ paddingLeft: 10, fontSize: 25 }}> QuanTum</label>
                             </Col>
                             <Col span={24} style={{ paddingTop: 12 }}>
-                                <span>แหล่งรวมร้านขายของเล่น ทั้งมือหนึ่ง และมือสอง ที่มากที่สุดในประเทศ</span>
+                                <span>This is My portfolio</span>
                             </Col>
                         </Row>
                     </Col>

@@ -5,7 +5,7 @@ import { Col, Row, Card, Image } from 'antd';
 export default function StoreGallery(props) {
     return (
         <>
-            <Card title="ภาพถ่ายสินค้า" bordered={false}>
+            <Card title="Project" bordered={false}>
                 <Row>
                     {props.data?.map((val, index) => {
                         return (

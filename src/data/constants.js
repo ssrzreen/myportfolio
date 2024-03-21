@@ -3,6 +3,10 @@ import arduinoIcon from '../images/arduino-icon-2048x1397-pmu0lemh.png'
 import thinkspeakIcon from '../images/thinkspeak.png'
 import WMSL from '../images/WMSL.png'
 import MEGROUP from '../images/MGE.png'
+import Ref1 from '../images/Ref1.PNG'
+import Ref2 from '../images/Ref2.PNG'
+import SutLogo from '../images/sutlogo.jpg'
+import Pakchong from '../images/Pakchong_School.jpg'
 export const Bio = {
     name: "Jakkree Rattanasuwan",
     roles: [
@@ -151,7 +155,7 @@ export const experiences = [
             "JavaScript",
             "Figma",
         ],
-        doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+        doc: Ref2 ,
     },
     {
         id: 1,
@@ -168,7 +172,7 @@ export const experiences = [
             "Docker",
             "PostMan",
         ],
-        doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+        doc: Ref1 ,
     },
     // {
     //     id: 2,
@@ -238,31 +242,31 @@ export const experiences = [
 export const education = [
     {
         id: 0,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-        school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-        date: "Oct 2021 - Sep 2025",
-        grade: "8.41 CGPA",
-        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-        degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+        img: SutLogo,
+        school: "Suranaree University of Technology",
+        date: "2020 - Now",
+        grade: "GPAX : 3.01",
+        desc: "I study design, web development, app development, and IoT development. which must allow apps and devices to connect with each other with a grade of GPAX 3.01",
+        degree: "Digital Technology ( Application design and development )",
     },
     {
         id: 1,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-        school: "Methodist School, Dankuni",
-        date: "Apr 2019 - Apr 2025",
-        grade: "88.2%",
-        desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-        degree: "ISC(XII), Science with Computer",
+        img: Pakchong,
+        school: "Pakchong School",
+        date: "2014 - 2019",
+        grade: "GPAX : 3.28",
+        desc: "I study arts and languages. Graduated from Pak Chong School, GPAX grade 3.28 ",
+        degree: "Language Arts and Art",
     },
-    {
-        id: 2,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-        school: "Methodist School, Dankuni",
-        date: "Apr 2017 - Apr 2019",
-        grade: "92.3%",
-        desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-        degree: "ICSC(X), Science with Computer",
-    },
+    // {
+    //     id: 2,
+    //     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    //     school: "Methodist School, Dankuni",
+    //     date: "Apr 2017 - Apr 2019",
+    //     grade: "92.3%",
+    //     desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+    //     degree: "ICSC(X), Science with Computer",
+    // },
 ];
 
 export const projects = [
